@@ -1,0 +1,39 @@
+.grid{
+    display: grid;
+    grid-template-columns: 100px 100px 100px; 
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content: center; 
+    margin-top: 150px;
+}
+
+.game-state{
+    width: 130px;
+    height: 30px;
+    background-color: rgb(79, 217, 255);
+    border-radius: 2px;
+    margin: 0px;
+    border: 5px solid;
+    border-color: rgb(45, 157, 231);
+    align-items: center;
+}
+
+.reset-button{
+    background-color: rgb(235, 104, 104);
+    cursor: pointer;
+}
+
+.reset-button:hover{
+    background-color: red;
+}
+
+.play-field{
+    border: 10px solid;
+    border-color: black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.play-field:hover{
+    background-color: gray;
+}
