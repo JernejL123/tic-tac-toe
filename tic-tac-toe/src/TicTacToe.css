@@ -4,7 +4,7 @@
     grid-template-rows: 100px 100px 100px;
     grid-gap: 10px;
     justify-content: center; 
-    margin-top: 150px;
+    margin-top: 75px;
 }
 
 .game-state{
@@ -36,4 +36,19 @@
 
 .play-field:hover{
     background-color: gray;
+}
+
+.header{
+    background-color: black;
+    width: auto;
+    height: 75px;
+    margin: -10px;
+    border-radius: 10px;
+}
+
+.title{
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 15px;
 }

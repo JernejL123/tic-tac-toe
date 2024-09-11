@@ -55,19 +55,22 @@ function TicTacToe() {
     };
 
     return (
+        <>
+        <div className="header"><h1 className="title">Tic-Tac-Toe</h1> </div> 
         <div className="grid">
-            {board.map((cellContent, index) => (
-                <button
-                    className="play-field"
-                    key={index}
-                    onClick={() => handleClick(index)}
-                >
-                    {cellContent}
-                </button>
-            ))}
-            <button className="reset-button" onClick={resetBoard}>RESET</button>
-            <p className="game-state">{gameState}</p>
-        </div>
+        {board.map((cellContent, index) => (
+            <button
+                className="play-field"
+                key={index}
+                onClick={() => handleClick(index)}
+            >
+                {cellContent}
+            </button>
+        ))}
+        <button className="reset-button" onClick={resetBoard}>RESET</button>
+        <p className="game-state">{gameState}</p>
+    </div>
+    </>
     );
 }
 
